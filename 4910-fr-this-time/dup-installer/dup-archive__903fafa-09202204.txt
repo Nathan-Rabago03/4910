@@ -1,0 +1,923 @@
+{
+    "dup_type": "lite",
+    "created": "2023-11-09 20:22:04",
+    "version_dup": "1.5.7",
+    "version_wp": "6.3.2",
+    "version_db": "10.6.15",
+    "version_php": "8.1.24",
+    "version_os": "Linux",
+    "blogname": "",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$h\/5Kl39khmEYS.l0R7wEiOn.rPdF7UlBQnVU8NO0FTtr\/mUXkfSvO",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "mediumturquoise-goldfinch-423259.hostingersite.com",
+            "path": "\/",
+            "blogname": "",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "mediumturquoise-goldfinch-423259.hostingersite.com",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com",
+            "fullSiteUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4"
+        ],
+        "collationList": [
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 1,
+        "name": "u139129991_eWRRt",
+        "tablesBaseCount": 59,
+        "tablesFinalCount": 59,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 1516,
+        "tablesSizeOnDisk": 7340032,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 34,
+                "insertedRows": 34,
+                "size": 131072
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 90,
+                "insertedRows": 90,
+                "size": 49152
+            },
+            "wp_aioseo_cache": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 147456
+            },
+            "wp_aioseo_notifications": {
+                "inaccurateRows": 7,
+                "insertedRows": 7,
+                "size": 163840
+            },
+            "wp_aioseo_posts": {
+                "inaccurateRows": 37,
+                "insertedRows": 37,
+                "size": 81920
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 114688
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_litespeed_url": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_litespeed_url_file": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wp_options": {
+                "inaccurateRows": 668,
+                "insertedRows": 676,
+                "size": 3768320
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 309,
+                "insertedRows": 309,
+                "size": 98304
+            },
+            "wp_posts": {
+                "inaccurateRows": 73,
+                "insertedRows": 73,
+                "size": 196608
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 19,
+                "insertedRows": 19,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 20,
+                "insertedRows": 20,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 19,
+                "insertedRows": 19,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 32,
+                "insertedRows": 32,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 70,
+                "insertedRows": 70,
+                "size": 65536
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 102,
+                "insertedRows": 102,
+                "size": 81920
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wp_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 114688
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wp_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wpforms_tasks_meta": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 16384
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.6.15",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "pcug",
+        "packageHash": "903fafa-09202204",
+        "secondaryHash": "49edbb9-09202204"
+    },
+    "fileInfo": {
+        "dirCount": 2269,
+        "fileCount": 13903,
+        "size": 196213698
+    },
+    "wpInfo": {
+        "version": "6.3.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html",
+        "targetPaths": [
+            "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "mediumturquoise-goldfinch-423259.hostingersite.com",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "Sc[C0})WV&tj)q#@]jc\/a@qqroT4OGyQp qah=JjX,4MBic(V3Tr}H#&[yIsEGdh",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "#P>|@4{D:tMc\/BzzPp7YX0nF ds]k,x<MQKw,*@Lg^wa@\/)H5!?W^[p1_9AORe&n",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "Wj6^^z!Qgb7[I)1 EzRV8pgK) Ks[OwHSnthiVPjMa,Vv;as?SJ1:~@%Z\/IOA.We",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "J&mm;ew_^h@mHS&R%%uO1UzxYaP#xK{g#OP-Wq:=Pf`Xx8B)J9bTDwmmITL[<}8T",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "I$T:$Tbe0jg!B&x\/\/:T%sp!abU&k7vl%*&#,zU<2k==-~}nC];4gj_ClK?O8+I*3",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "8q\/]3{TFIF)evqtZVe12D~tr<l~Hkjr.m7ho6|.GPVDps[R)o(h-kFU9|*j1*@FA",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": ",G^Q%ap7[jGL]dVGRvI2FGbjkEW(3g[am[dH}\/SIZW@z%VNMIrqSoowA)Q$%T&Ba",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "Yk\/ime[J&xaL!028+>>L aH~||7hh`bJnkb,Dm=-hNEH2:Ckgpt~H.@Ay%;)Q+H>",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "2048M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/themes\/storefront",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/themes\/storefront",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_AUTO_UPDATE_CORE": {
+                    "value": "minor",
+                    "inWpConfig": true
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com",
+                "homeUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com",
+                "loginUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-login.php",
+                "contentUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content",
+                "uploadBaseUrl": "http:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/mediumturquoise-goldfinch-423259.hostingersite.com\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html",
+                    "abs": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html",
+                    "wpconfig": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html",
+                    "wpcontent": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content",
+                    "uploads": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html",
+                    "abs": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html",
+                    "wpconfig": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html",
+                    "wpcontent": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content",
+                    "uploads": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/u139129991\/domains\/mediumturquoise-goldfinch-423259.hostingersite.com\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "all-in-one-seo-pack\/all_in_one_seo_pack.php": {
+                "slug": "all-in-one-seo-pack\/all_in_one_seo_pack.php",
+                "name": "All in One SEO",
+                "version": "4.4.9.2",
+                "pluginURI": "https:\/\/aioseo.com\/",
+                "author": "All in One SEO Team",
+                "authorURI": "https:\/\/aioseo.com\/",
+                "description": "SEO for WordPress. Features like XML Sitemaps, SEO for custom post types, SEO for blogs, business sites, ecommerce sites, and much more. More than 100 million downloads since 2007.",
+                "title": "All in One SEO",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.7",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-analytics-for-wordpress\/googleanalytics.php": {
+                "slug": "google-analytics-for-wordpress\/googleanalytics.php",
+                "name": "Google Analytics for WordPress by MonsterInsights",
+                "version": "8.20.1",
+                "pluginURI": "https:\/\/www.monsterinsights.com\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0",
+                "author": "MonsterInsights",
+                "authorURI": "https:\/\/www.monsterinsights.com\/lite\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0",
+                "description": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
+                "title": "Google Analytics for WordPress by MonsterInsights",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hostinger\/hostinger.php": {
+                "slug": "hostinger\/hostinger.php",
+                "name": "Hostinger",
+                "version": "1.8.6",
+                "pluginURI": "https:\/\/hostinger.com",
+                "author": "Hostinger",
+                "authorURI": "https:\/\/www.hostinger.com",
+                "description": "Hostinger WordPress plugin.",
+                "title": "Hostinger",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "hostinger-ai-assistant\/hostinger-ai-assistant.php": {
+                "slug": "hostinger-ai-assistant\/hostinger-ai-assistant.php",
+                "name": "Hostinger AI Assistant",
+                "version": "1.6.6",
+                "pluginURI": "https:\/\/hostinger.com",
+                "author": "Hostinger",
+                "authorURI": "https:\/\/hostinger.com",
+                "description": "Hostinger AI Assistant plugin.",
+                "title": "Hostinger AI Assistant",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "litespeed-cache\/litespeed-cache.php": {
+                "slug": "litespeed-cache\/litespeed-cache.php",
+                "name": "LiteSpeed Cache",
+                "version": "5.7.0.1",
+                "pluginURI": "https:\/\/www.litespeedtech.com\/products\/cache-plugins\/wordpress-acceleration",
+                "author": "LiteSpeed Technologies",
+                "authorURI": "https:\/\/www.litespeedtech.com",
+                "description": "High-performance page caching and site optimization from LiteSpeed",
+                "title": "LiteSpeed Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "optinmonster\/optin-monster-wp-api.php": {
+                "slug": "optinmonster\/optin-monster-wp-api.php",
+                "name": "OptinMonster",
+                "version": "2.14.1",
+                "pluginURI": "https:\/\/optinmonster.com",
+                "author": "OptinMonster Popup Builder Team",
+                "authorURI": "https:\/\/optinmonster.com",
+                "description": "OptinMonster is the best WordPress popup builder plugin that helps you grow your email newsletter list and sales with email popups, exit intent popups, floating bars and more!",
+                "title": "OptinMonster",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "8.2.1",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An eCommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.8.4.1",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "object-cache.php": {
+                "slug": "object-cache.php",
+                "name": "object-cache.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            }
+        },
+        "themes": {
+            "storefront": {
+                "slug": "storefront",
+                "themeName": "Storefront",
+                "version": "4.5.3",
+                "themeURI": "https:\/\/woocommerce.com\/products\/storefront\/",
+                "parentTheme": false,
+                "template": "storefront",
+                "stylesheet": "storefront",
+                "description": "Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout &amp; color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com\/",
+                "tags": [
+                    "e-commerce",
+                    "two-columns",
+                    "left-sidebar",
+                    "right-sidebar",
+                    "custom-background",
+                    "custom-colors",
+                    "custom-header",
+                    "custom-menu",
+                    "featured-images",
+                    "full-width-template",
+                    "threaded-comments",
+                    "accessibility-ready",
+                    "rtl-language-support",
+                    "footer-widgets",
+                    "sticky-post",
+                    "theme-options",
+                    "editor-style"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyone": {
+                "slug": "twentytwentyone",
+                "themeName": "Twenty Twenty-One",
+                "version": "1.9",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyone\/",
+                "parentTheme": false,
+                "template": "twentytwentyone",
+                "stylesheet": "twentytwentyone",
+                "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme\u2019s soft colors and eye-catching \u2014 yet timeless \u2014 design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.5",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": ""
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "pcug_903fafa240f9155e3265_20231109202204_installer-backup.php",
+    "package_name": "pcug_903fafa240f9155e3265_20231109202204_archive.zip",
+    "package_hash": "903fafa-09202204",
+    "package_notes": ""
+}
